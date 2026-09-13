@@ -54,7 +54,7 @@ ax00.plot(corr2[:,0],corr2[:,1],lw=3,color='k',ls='--',label=r'$0.031~s^{-1}$')
 ax00.plot(corr3[:,0],corr3[:,1],lw=3,color='k',ls='-.',label=r'$0.021~s^{-1}$')
 ax00.plot(corr4[:,0],corr4[:,1],lw=3,color='k',ls=':',label=r'$0.010~s^{-1}$')
 
-ax00.set_ylabel(r'$\mathrm{C_{vv}(t)|_{J=0}}$',labelpad=10)
+ax00.set_ylabel(r'$\mathrm{\log~C_{vv}(t)|_{J=0}}$',labelpad=10)
 ax00.set_xlabel(r'$\mathrm{t}$',labelpad=10)
 
 ax00.set_xlim(0,2.5)
